@@ -1,13 +1,16 @@
-# Test Plug In
+# Simple Test Plugin for TypingMind
 
-Generate Unique Images with the Stable Diffusion Plugin
+This is a minimal plugin for testing the import process into TypingMind. It returns a simple "Hello from the plugin!" message.
 
-Transform your imagination into stunning visuals using the power of Stable Diffusion. Easily create captivating images from just a few words.
+## How to Import
 
-**API Key Required:** You'll need a valid Stable API key. Obtain one from their website (free): https://platform.stability.ai/account/keys
+1.  Make sure the `plugin.json` and `implementation.js` files are in the root of your GitHub repository.
+2.  In TypingMind, go to "Start a new chat".
+3.  Access the plugin feature, and select "Develop your own plugin."
+4. Choose "+ Import plugin from URL."
+5.  Enter the following import URL:
+    *   *See Corrected Import URL section below*
 
-## Examples
+## Functionality
 
-- "Create an image of a majestic lion standing proudly on a cliff overlooking a vast savanna at sunset."
-- "Generate a vibrant cyberpunk cityscape illuminated by neon signs and bustling with activity."
-- "Draw a photorealistic portrait of a woman with fiery red hair and emerald green eyes."
+This plugin defines a single function, `simple_test`, which takes no parameters and returns a greeting message. It does not interact with any external APIs.
