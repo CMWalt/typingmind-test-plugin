@@ -1,21 +1,25 @@
- {
-   "manifest_version": "1.0",
-   "name": "Simple Test Plugin",
-   "description": "A minimal plugin for testing TypingMind import.",
-   "version": "1.0",
-   "type": "api",
-   "api": {
-     "url": "REPLACE_WITH_OPENAPI_YAML_RAW_URL",
-     "type": "openapi",
-     "is_user_authenticated": false
-   },
+{
+  "manifest_version": "1.0",
+  "name": "Simple Test Plugin",
+  "name_for_model": "TestPlugin",
+  "description": "A minimal plugin for testing TypingMind import.",
+  "description_for_model": "A simple plugin that returns a test message.",
+  "version": "1.0",
+  "type": "api",
+  "api": {
+    "url": "REPLACE_WITH_OPENAPI_YAML_RAW_URL",
+    "type": "openapi",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://example.com/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "https://example.com/legal",
    "ui": {
-      "commands":[
-          {"name":"/test",
-          "description": "Testing command"}
-      ]
-   },
-   "author": "Your Name",
-   "author_url": "https://github.com/CMWalt/typingmind-test-plugin/blob/main/openapi.yaml"
- }
- ```
+       "commands":[
+           {"name":"/test",
+           "description": "Testing command"}
+       ]
+    },
+  "author": "Your Name",
+  "author_url": "https://your-website.com"
+}
