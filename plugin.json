@@ -9,7 +9,12 @@
     "parameters": {
       "type": "object",
       "required": [],
-      "properties": {}
+      "properties": {
+        "dummyProperty": {
+          "type": "string",
+          "description": "A dummy property to satisfy Gemini."
+        }
+      }
     },
     "description": "A simple test plugin that returns a greeting."
   },
