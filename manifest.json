@@ -7,7 +7,7 @@
   "version": "1.0",
   "type": "api",
   "api": {
-    "url": "REPLACE_WITH_OPENAPI_YAML_RAW_URL",
+    "url": "https://raw.githubusercontent.com/CMWalt/typingmind-test-plugin/main/openapi.yaml",
     "type": "openapi",
     "is_user_authenticated": false
   },
@@ -18,7 +18,7 @@
        "commands":[
            {"name":"/test",
            "description": "Testing command"}
-       ]
+        ]
     },
   "author": "Your Name",
   "author_url": "https://your-website.com"
